@@ -1,0 +1,33 @@
+Found a 14 line (36 tokens) duplication in the following files: 
+Starting at line 3 of C:\work\code\GitHub\springpocs\springmvc\src\main\java\com\testyantra\springmvcpoc\model\HelloModel.java
+Starting at line 3 of C:\work\code\GitHub\springpocs\springmvc\src\main\java\com\testyantra\springmvcpoc\model\HelloModel2.java
+
+public class HelloModel {
+	private String message;
+
+	public String getMessage() {
+		return message;
+	}
+	
+	public String getMessage2() {
+		return message;
+	}
+	
+	public void setMessage(String message) {
+		this.message = message;
+	}
+=====================================================================
+Found a 10 line (34 tokens) duplication in the following files: 
+Starting at line 56 of C:\work\code\GitHub\springpocs\springmvc\src\main\java\com\testyantra\springmvcpoc\controller\HelloController.java
+Starting at line 68 of C:\work\code\GitHub\springpocs\springmvc\src\main\java\com\testyantra\springmvcpoc\controller\HelloController.java
+
+	   public ModelAndView newPrintHello2() {
+			
+		HelloModel myModel = new HelloModel();
+		myModel.setMessage("My Name is Maurya !!!");
+		
+		ModelAndView modelView = new ModelAndView("hello");
+		modelView.addObject("info", myModel);
+//		modelView.setViewName();
+	      return modelView;
+	   }

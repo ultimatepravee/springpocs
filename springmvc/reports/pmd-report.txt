@@ -1,0 +1,48 @@
+src/main/java/com/testyantra/springmvcpoc/controller/HelloController.java:16:	Each class should declare at least one constructor
+src/main/java/com/testyantra/springmvcpoc/controller/HelloController.java:16:	Each class should declare at least one constructor
+src/main/java/com/testyantra/springmvcpoc/controller/HelloController.java:16:	Header comments are required
+src/main/java/com/testyantra/springmvcpoc/controller/HelloController.java:16:	Header comments are required
+src/main/java/com/testyantra/springmvcpoc/controller/HelloController.java:23:	Parameter 'model' is not assigned and could be declared final
+src/main/java/com/testyantra/springmvcpoc/controller/HelloController.java:23:	Parameter 'model' is not assigned and could be declared final
+src/main/java/com/testyantra/springmvcpoc/controller/HelloController.java:23:	Public method and constructor comments are required
+src/main/java/com/testyantra/springmvcpoc/controller/HelloController.java:23:	Public method and constructor comments are required
+src/main/java/com/testyantra/springmvcpoc/controller/HelloController.java:25:	Local variable 'myModel' could be declared final
+src/main/java/com/testyantra/springmvcpoc/controller/HelloController.java:25:	Local variable 'myModel' could be declared final
+src/main/java/com/testyantra/springmvcpoc/controller/HelloController.java:28:	The String literal "info" appears 5 times in this file; the first occurrence is on line 28
+src/main/java/com/testyantra/springmvcpoc/controller/HelloController.java:28:	The String literal "info" appears 5 times in this file; the first occurrence is on line 28
+src/main/java/com/testyantra/springmvcpoc/controller/HelloController.java:29:	The String literal "hello" appears 5 times in this file; the first occurrence is on line 29
+src/main/java/com/testyantra/springmvcpoc/controller/HelloController.java:29:	The String literal "hello" appears 5 times in this file; the first occurrence is on line 29
+src/main/java/com/testyantra/springmvcpoc/controller/HelloController.java:33:	Parameter 'model' is not assigned and could be declared final
+src/main/java/com/testyantra/springmvcpoc/controller/HelloController.java:33:	Parameter 'model' is not assigned and could be declared final
+src/main/java/com/testyantra/springmvcpoc/controller/HelloController.java:33:	Public method and constructor comments are required
+src/main/java/com/testyantra/springmvcpoc/controller/HelloController.java:33:	Public method and constructor comments are required
+src/main/java/com/testyantra/springmvcpoc/controller/HelloController.java:35:	Local variable 'myModel' could be declared final
+src/main/java/com/testyantra/springmvcpoc/controller/HelloController.java:35:	Local variable 'myModel' could be declared final
+src/main/java/com/testyantra/springmvcpoc/controller/HelloController.java:44:	Public method and constructor comments are required
+src/main/java/com/testyantra/springmvcpoc/controller/HelloController.java:44:	Public method and constructor comments are required
+src/main/java/com/testyantra/springmvcpoc/controller/HelloController.java:46:	Local variable 'myModel' could be declared final
+src/main/java/com/testyantra/springmvcpoc/controller/HelloController.java:46:	Local variable 'myModel' could be declared final
+src/main/java/com/testyantra/springmvcpoc/controller/HelloController.java:49:	Local variable 'modelView' could be declared final
+src/main/java/com/testyantra/springmvcpoc/controller/HelloController.java:49:	Local variable 'modelView' could be declared final
+src/main/java/com/testyantra/springmvcpoc/controller/HelloController.java:56:	Public method and constructor comments are required
+src/main/java/com/testyantra/springmvcpoc/controller/HelloController.java:56:	Public method and constructor comments are required
+src/main/java/com/testyantra/springmvcpoc/controller/HelloController.java:58:	Local variable 'myModel' could be declared final
+src/main/java/com/testyantra/springmvcpoc/controller/HelloController.java:58:	Local variable 'myModel' could be declared final
+src/main/java/com/testyantra/springmvcpoc/controller/HelloController.java:61:	Local variable 'modelView' could be declared final
+src/main/java/com/testyantra/springmvcpoc/controller/HelloController.java:61:	Local variable 'modelView' could be declared final
+src/main/java/com/testyantra/springmvcpoc/controller/HelloController.java:68:	Parameter 'name' is not assigned and could be declared final
+src/main/java/com/testyantra/springmvcpoc/controller/HelloController.java:68:	Parameter 'name' is not assigned and could be declared final
+src/main/java/com/testyantra/springmvcpoc/controller/HelloController.java:68:	Public method and constructor comments are required
+src/main/java/com/testyantra/springmvcpoc/controller/HelloController.java:68:	Public method and constructor comments are required
+src/main/java/com/testyantra/springmvcpoc/controller/HelloController.java:70:	Local variable 'myModel' could be declared final
+src/main/java/com/testyantra/springmvcpoc/controller/HelloController.java:70:	Local variable 'myModel' could be declared final
+src/main/java/com/testyantra/springmvcpoc/controller/HelloController.java:73:	Local variable 'modelView' could be declared final
+src/main/java/com/testyantra/springmvcpoc/controller/HelloController.java:73:	Local variable 'modelView' could be declared final
+src/main/java/com/testyantra/springmvcpoc/model/HelloModel.java:3:	Each class should declare at least one constructor
+src/main/java/com/testyantra/springmvcpoc/model/HelloModel.java:3:	Each class should declare at least one constructor
+src/main/java/com/testyantra/springmvcpoc/model/HelloModel.java:3:	Header comments are required
+src/main/java/com/testyantra/springmvcpoc/model/HelloModel.java:3:	Header comments are required
+src/main/java/com/testyantra/springmvcpoc/model/HelloModel.java:4:	Field comments are required
+src/main/java/com/testyantra/springmvcpoc/model/HelloModel.java:4:	Field comments are required
+src/main/java/com/testyantra/springmvcpoc/model/HelloModel.java:10:	Parameter 'message' is not assigned and could be declared final
+src/main/java/com/testyantra/springmvcpoc/model/HelloModel.java:10:	Parameter 'message' is not assigned and could be declared final
