@@ -18,21 +18,37 @@ import com.testyantra.springmvcpoc.model.HelloModel;
 //THis can be used with method as well as Class level
 //@RequestMapping("/hello")
 
-public class HelloController { 
+public class HelloController {  // NOPMD by Praveen on 29/4/19 7:59 AM
+	
+	private int i;
+	/**
+	 * 
+	 */
+	public boolean married;
+	/**
+	 * 
+	 */
+	protected String name;
+	
 	
 	@GetMapping({"/hello1","/hello2"})//These Must be used with Method Level
 	//@GetMapping("/hello2")
 	//@GetMapping(value = "/hello2")
    //@RequestMapping(value = "/hello2", method = RequestMethod.GET)
    //@RequestMapping(method = RequestMethod.GET)
-   public String printHello(ModelMap model) {
-		
+	/**
+	 * Hi 
+	 * @param model
+	 * @return
+	 */
+	public String printHello(final ModelMap model) {
+
 		HelloModel myModel = new HelloModel();
 		myModel.setMessage("My Name is Praveen !!!");
-		
-      model.addAttribute("info", myModel);
-      return "hello";
-   }
+
+		model.addAttribute("info", myModel);
+		return "hello";
+	}
    
 	/**
 	 * 
@@ -50,10 +66,16 @@ public class HelloController {
       return model;
    }
 	
+	
 	@GetMapping("/hello4")
 	   public ModelAndView newPrintHello() {
-			
+		String str = "xyz";
 		HelloModel myModel = new HelloModel();
+		
+		if("xyz".equals(str)) {
+			myModel.setMessage("My Name is Mahendra !!!");
+		}
+		
 		myModel.setMessage("My Name is Mahendra !!!");
 		
 		ModelAndView modelView = new ModelAndView();
