@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<body>
+<table>
+<tr>
+<td width="10%"></td>
+<td width="70%">
+	<img alt="" height="5%" width="35%" src="./TY.jpg">
+	<BR>
+    <P>Dear <b th:text="${info.empname}"></b>,</P> 
+	<P>
+	On behalf of <b th:text="${info.cmpname}"></b>, 
+	I am pleased to offer you employment with <b th:text="${info.cmpname}"></b> as a <b th:text="${info.designation}"></b> 
+	starting on <b th:text="${info.joiningdate}"></b>. 
+	</P>
+	
+	<p>
+	Please carefully review this document for important details about your compensation, benefits, and terms of your 
+	anticipated employment with <b th:text="${info.cmpname}"></b>.
+	</p>
+	
+	<p>
+	During your employment, you will be paid a salaried rate of  <b th:text="${info.salaryamt}"></b>. 
+	Your compensation will be paid in regular installments in accordance with the Company&#39;s regular payroll process, 
+	and subject to applicable tax and other withholdings [if applicable, note here if your company pays on a bi-weekly, 
+	weekly or monthly schedule]. As an exempt employee, you will not be eligible for any overtime pay. This position is a 
+	full-time position.
+	</p>
+	
+	<p>
+	As part of your compensation, we&#39;re also offering [describe bonus details, commission structure, stock options 
+	and compensation committee rules here].
+	</p>
+	
+	<p>
+	As an employee of <b th:text="${info.cmpname}"></b> you will also be eligible for [list certain benefits and insurance options].
+At-will employment Your position with <b th:text="${info.cmpname}"></b> is <q>at will,</q> and thus you or the Company may terminate
+ our employment relationship at any time, with or without cause or advance notice. <b th:text="${info.cmpname}"></b> 
+ reserves the right, in its sole discretion, to change your compensation and/or employee benefits at any time on a 
+ prospective basis. 
+ </p>
+	
+	<p>
+Please confirm your agreement with these terms and accept this offer by signing this agreement on or before [offer deadline date]. 
+We look forward to working together! Please don&#39;t hesitate to reach out to [insert HR point of contact] in the meantime. 
+ </p>
+ 
+ <p>
+ 	Sincerely,<BR>
+ 	<b th:text="${info.hiringmgr}"></b><BR>
+	<b th:text="${info.hiringmgrdesig}"></b><BR>
+	<b th:text="${info.hiringdate}"></b>
+</p>
+
+<BR>
+
+<p>
+I hereby agree to and accept employment with the Company on the terms and conditions set forth in this offer letter. 
+<BR>Name: <b th:text="${info.empname}"></b>
+<BR>Date: <b th:text="${info.hiringdate}"></b>
+<BR>Signature: </p>
+    
+    <p><input type="button" value="Send Mail"> &nbsp; &nbsp; &nbsp; <input type="button" value="Print"></p>
+    </td>
+    <td width="10%"></td>
+</tr>
+</table>
+
+</body>
+</html>
